@@ -1,0 +1,46 @@
+export const projects = [
+    {id:"1",
+     name:"CV - my resume",
+     description:"This is a personal portfolio website showcasing the skills and projects of Oksana Fedyukova, a front-end developer. The website serves as a presentation of her work experience, education, and technical abilities. The website is built using modern web technologies and provides an interactive platform to showcase her skills and knowledge in front-end development.",
+     github_link:"https://github.com/OksanaFedyukova",
+     linkDemo:"https://oksana-fedyukova-cv-2023.netlify.app",
+     image:"*/",
+     technologies:"HTML, CSS, Bootstrap",
+    },
+
+    {id:"2",
+    name:"Monster Nom Nom",
+    description:"This is a fun, interactive web game called 'Monster Nom Nom' that provides entertainment and challenges players to feed a hungry monster by catching food items that fall from the sky. The website is designed with colorful graphics and animations, and built using modern web technologies. The website serves as a demonstration of the developer's skills in game development and front-end web design.",
+    github_link:"https://github.com/OksanaFedyukova/monster-nom-nom",
+    linkDemo:"https://monster-nom-nom.netlify.app",
+    image:"*/",
+    technologies:"JavaScript, Css, Animation,Html "
+   },
+    
+    {id:"3",
+    name:"RankingApp",
+    description:"This is a web-based ranking application that allows users to create and manage rankings of items, such as movies, books, or video games. The application features a user-friendly interface and allows users to add, edit, and delete items from the rankings, as well as vote and comment on items. The website is built using modern web technologies and provides a platform for users to share and compare their rankings with others. The website serves as a demonstration of the developer's skills in web development and front-end design.",
+    github_link:"https://github.com/OksanaFedyukova/rankingapp",
+    linkDemo:"https://rankingapp.vercel.app/ ",
+    image:"/",
+    technologies:"React, React-Router 6.4.3, BootstrapReact, SASS, StyledComponents and a significant amount of JS, JSX, and SCSS. ",
+   },
+    
+    {id:"4",
+    name:"React - CRUD - php",
+    description:"This is a Github repository containing the code for a CRUD (Create, Read, Update, Delete) application built using React, a popular JavaScript library for building user interfaces. The application provides a simple and user-friendly interface for managing a list of items and allows users to perform CRUD operations on the items. The repository serves as a demonstration of the developer's skills in React development and can be used as a reference for other developers",
+    github_link:"https://github.com/OksanaFedyukova/crud-react-client",
+    linkDemo:"https://github.com//crud-react-client",
+    image:"/*",
+    technologies:"React, PHP, Bootstrap",
+   },
+    
+    {id:"5",
+    name:"Cat Space",
+    description:"This is a fun and playful website featuring a collection of cat-themed graphics and animations. The website serves as a demonstration of the developer's skills in web design and front-end development, showcasing their abilities in creating visually appealing and engaging user interfaces. The website is built using modern web technologies and provides a lighthearted and entertaining experience for visitors.",
+    github_link:"https://github.com/OksanaFedyukova/CatSpace",
+    linkDemo:"https://catspace.vercel.app",
+    image:"*/",
+    technologies:"HTML, CSS, JavaScript and a JavaScript library or framework such as React, vercel",
+     }
+    ]
