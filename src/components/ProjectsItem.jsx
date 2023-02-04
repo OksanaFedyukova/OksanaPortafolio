@@ -1,50 +1,43 @@
+
 import React from 'react';
+import {Card, CardMedia, Grid, CardContent, Typography, Button, CardActions} from '@mui/material';
+
+
+
 
 const ProjectsItem = (props) => {
-    const { name, description, setOrder } = props;
+     const { name, description, poster} = props;
 
     return (
-        <div className='col-12 col-md-6 px-md-2'>
-            <div className='card'>
-                <img
-                    src={`https://via.placeholder.com/300x150.png?text=${name.slice(
-                        0,
-                        12
-                    )}`}
-                    className='card-img-top'
+      <Grid mb={4} xs={12} md={4} sm={6} spacing={4} >
+          <Card sx={{
+             minHeight: '200px'
+
+          }}>
+
+          <CardMedia
+                    image={poster}
                     alt={name}
-                />
-                <div className='card-body'>
-                    <h5 className='card-title'>{name}</h5>
-                    <p className='card-text'>{description}</p>
-                    <button
-                        className='btn btn-primary'
-                        onClick={() =>
-                            setOrder({
-                                id: props.id,
-                                name: props.name,
-                                price: props.price,
-                            })
-                        }
+                    title={name}
+                    sx={{height: 140 }}
+                    />
+            <CardContent>
+                <Typography  variant="h6" component="h3" >{name}</Typography>
+                <Typography variant="body1">{description}</Typography>
+            </CardContent>
+            <CardActions>
+                  <Button
+                       color="pomegranate"
                     >
-                        Read More
-                    </button>
-                    <button
-                        className='btn btn-primary'
-                        onClick={() =>
-                            setOrder({
-                                id: props.id,
-                                name: props.name,
-                                price: props.price,
-                            })
-                        }
-                    >
-                        View Demo
-                    </button>
-                </div>
-            </div>
-        </div>
+                        View DEMO
+                    </Button>
+                  
+                    </CardActions>
+             </Card>
+        </Grid>
+       
     );
+    
 };
 
 export default ProjectsItem;

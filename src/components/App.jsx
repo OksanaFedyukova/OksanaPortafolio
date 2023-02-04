@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import ProjectsList from './ProjectsList';
 import Search from './Search';
-
+import Header from './Header';
 import { projects } from '../data/projects';
+import { Container } from '@mui/system';
+
 
 const App = () => {
-  
+
     const [search, setSearch] = useState('');
     const [products, setProducts] = useState(projects);
 
@@ -18,24 +20,27 @@ const App = () => {
 
         setSearch(e.target.value);
         setProducts(
-            products.filter((good) =>
-                good.name.toLowerCase().includes(e.target.value.toLowerCase())
+            products.filter((projects) =>
+                projects.description.toLowerCase().includes(e.target.value.toLowerCase())
             ))
     };
 
 
     return (
-        <div className='App'>
-            <div className='container'>
-                
-                <ProjectsList
-                    projects={products} />
+        <>
+       <Header/>
 
+       <Container sx={{
+          mt: '1rem'
+       }}>
                 <Search
                     value={search}
                     onChange={handleChange} />
-            </div>
-        </div>
+                <ProjectsList
+                    projects={products} />
+       </Container>
+        
+        </>
     );
 }
 
