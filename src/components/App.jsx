@@ -4,7 +4,7 @@ import Search from './Search';
 import Header from './Header';
 import { projects } from '../data/projects';
 import { Container } from '@mui/system';
-
+import ContactForm from './Form';
 
 const App = () => {
 
@@ -17,7 +17,6 @@ const App = () => {
             setSearch('');
             return;
         }
-
         setSearch(e.target.value);
         setProducts(
             products.filter((projects) =>
@@ -26,20 +25,15 @@ const App = () => {
     };
 
 
-    return (
+ return (
         <>
        <Header/>
-
-       <Container sx={{
-          mt: '1rem'
-       }}>
-                <Search
-                    value={search}
-                    onChange={handleChange} />
-                <ProjectsList
-                    projects={products} />
+       <Container sx={{ mt: '1rem'  }}>
+                <Search value={search} onChange={handleChange} />
+                <ProjectsList projects={products} />
        </Container>
-        
+        <ContactForm/>
+        {/* FOOTER */}
         </>
     );
 }

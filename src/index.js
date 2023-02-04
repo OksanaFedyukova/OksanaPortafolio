@@ -7,7 +7,7 @@ import App from './components/App';
 
 const theme = createTheme({
         palette: {
-          primary: {
+          primary: {  
             main: '#384760',
           },
           secondary: {
@@ -15,7 +15,7 @@ const theme = createTheme({
           },
           pickledBluewood: {
             main: '#384760',
-          },
+          }, 
           wafer: {
             main: '#deccc3',
           },

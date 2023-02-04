@@ -30,7 +30,7 @@ export const projects = [
     
     {id:"4",
     name:"React - CRUD - php",
-    description:"This is a Github repository containing the code for a CRUD (Create, Read, Update, Delete) application built using React, a popular JavaScript library for building user interfaces. The application provides a simple and user-friendly interface for managing a list of items and allows users to perform CRUD operations on the items. The repository serves as a demonstration of the developer's skills in React development and can be used as a reference for other developers . React, PHP, Bootstrap",
+    description:"This is a Github repository containing the code for a CRUD (Create, Read, Update, Delete) application built using React, a popular JavaScript library for building user interfaces. The application provides a simple and user-friendly interface for managing a list of items and allows users to perform CRUD operations on the items. The repository serves as a demonstration of the developer's skills in React development. React, PHP, Bootstrap",
     github_link:"https://github.com/OksanaFedyukova/crud-react-client",
     linkDemo:"https://github.com//crud-react-client",
     poster:"https://images.unsplash.com/photo-1536240478700-b869070f9279?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=862&q=80",
