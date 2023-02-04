@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+    -pickled-bluewood: #384760;
+--wafer: #deccc3;
+--polo-blue: #89add0;
+--bermuda-gray: #7288a3;
+--pomegranate: #f64a25;
+--baltic-sea: #201d23;
+--nepal: #849ebe;
+--waikawa-gray: #576f94;
+--sandstone: #796764;
+--big-stone: #101b35;
+
+  /* font */
+  --family: 'Poppins', sans-serif;
+  --fw-normal: 500;
+  --fw-bold: 700;
+
+  --radii: 1rem;
+  --radii-sm: 0.5rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 0;
+  padding-right: 0;
+  }
+}
+
+#root {
+  width: 100%;
+  overflow: hidden;
+}
