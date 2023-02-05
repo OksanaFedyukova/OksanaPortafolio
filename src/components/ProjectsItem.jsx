@@ -7,12 +7,18 @@ import {Card, CardMedia, Grid, CardContent, Typography, Button, CardActions, Lin
 
 const ProjectsItem = (props) => {
      const { name, description, poster, linkDemo} = props;
-
+     const handleClick = () => {
+        window.open(linkDemo, "_blank");
+      };
+    
     return (
+        
+
       <Grid mb={4} xs={12} md={4} sm={6} spacing={4} >
+
           <Card sx={{
-             minHeight: '200px',
-           
+             maxHeight: '600px',
+            ml:'20px'
           }}>
 
           <CardMedia
@@ -23,17 +29,15 @@ const ProjectsItem = (props) => {
                     />
             <CardContent >
                 <Typography  variant="h6" component="h3" >{name}</Typography>
-                <Typography variant="body1">{description}</Typography>
+                <Typography variant="body2">{description}</Typography>
             </CardContent>
             <CardActions>
-                        <Link to={linkDemo}><Button color="pomegranate" > View DEMO
-                       </Button> 
-                    </Link>
+            <Button color="primary" onClick={handleClick}>View Demo</Button>
                   
                     </CardActions>
              </Card>
         </Grid>
-       
+    
     );
     
 };

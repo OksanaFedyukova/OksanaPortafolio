@@ -3,7 +3,7 @@
 export const projects = [
     {id:"1",
      name:"CV - my resume",
-     description:"This is a personal portfolio website showcasing the skills and projects of Oksana Fedyukova, a front-end developer. The website serves as a presentation of her work experience, education, and technical abilities. The website is built using modern web technologies and provides an interactive platform to showcase her skills and knowledge in front-end development. HTML, CSS, Bootstrap",
+     description:"This is a personal portfolio website showcasing the skills and projects of Oksana Fedyukova, a front-end developer. The website serves as a presentation of her work experience, education, and technical abilities. The website is built using modern web technologies and provides an interactive platform to showcase her skills and knowledge in front-end development. HTML, CSS, Bootstrap              ",
      github_link:"https://github.com/OksanaFedyukova",
      linkDemo:"https://oksana-fedyukova-cv-2023.netlify.app",
      poster:"https://images.unsplash.com/photo-1532012197267-da84d127e765?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
@@ -12,7 +12,7 @@ export const projects = [
 
     {id:"2",
     name:"Monster Nom Nom",
-    description:"This is a fun, interactive web game that provides entertainment and challenges players to feed a hungry monster by catching food items that fall from the sky. The website is designed with colorful graphics and animations, and built using modern web technologies. The website serves as a demonstration of the developer's skills in game development and front-end web design. JavaScript, Css, Html ",
+    description:"This is a fun, interactive web game that provides entertainment and challenges players to feed a hungry monster by catching food items that fall from the sky. The website is designed with colorful graphics and animations, and built using modern web technologies. The website serves as a demonstration of the developer's skills in game development and front-end web design. JavaScript, Css, Html       ",
     github_link:"https://github.com/OksanaFedyukova/monster-nom-nom",
     linkDemo:"https://monster-nom-nom.netlify.app",
     poster:"https://images.unsplash.com/photo-1485846234645-a62644f84728?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=740&q=80",
@@ -39,7 +39,7 @@ export const projects = [
     
     {id:"5",
     name:"Cat Space",
-    description:"This is a fun and playful website featuring a collection of cat-themed graphics and animations. The website serves as a demonstration of the developer's skills in web design and front-end development, showcasing their abilities in creating visually appealing and engaging user interfaces. The website is built using modern web technologies and provides a lighthearted and entertaining experience for visitors. HTML, CSS, JavaScript and a JavaScript library or framework such as React, Vercel",
+    description:"This is a fun and playful website featuring a collection of cat-themed graphics and animations. The website serves as a demonstration of the developer's skills in web design and front-end development, showcasing their abilities in creating visually appealing and engaging user interfaces. The website is built using new technologies and provides a lighthearted and entertaining experience for visitors. HTML, CSS, JavaScript",
     github_link:"https://github.com/OksanaFedyukova/CatSpace",
     linkDemo:"https://catspace.vercel.app",
     poster:"https://images.unsplash.com/photo-1496493820873-82288ac48a48?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",

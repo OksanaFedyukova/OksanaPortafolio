@@ -1,23 +1,24 @@
-import { useForm } from "react-hook-form";
+import React from 'react';
+import { useForm } from 'react-hook-form';
+import '../index.css'
+import { Typography } from '@mui/material';
 
 export default function ContactForm() {
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
+  const { register, handleSubmit, formState: { errors } } = useForm();
+  
   const onSubmit = data => console.log(data);
-
-  console.log(watch("example")); // watch input value by passing the name of it
-
+  console.log(errors);
+  
   return (
-    /* "handleSubmit" will validate your inputs before invoking "onSubmit" */
+    <>                <Typography  variant="h6" component="h2" >CONTACT ME</Typography>
+   
     <form onSubmit={handleSubmit(onSubmit)}>
-      {/* register your input into the hook by invoking the "register" function */}
-      <input defaultValue="test" {...register("example")} />
-      
-      {/* include validation with required or other standard HTML validation rules */}
-      <input {...register("exampleRequired", { required: true })} />
-      {/* errors will return when field validation fails  */}
-      {errors.exampleRequired && <span>This field is required</span>}
-      
+      <input type="text" placeholder="Name" {...register("Name", {required: true, maxLength: 80})} />
+      <input type="text" placeholder="Email" {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
+      <input type="text" placeholder="Title" {...register("Name", {required: true, maxLength: 80})} />
+      <textarea {...register("aboutYou")} placeholder="About you" />
       <input type="submit" />
-    </form>
+    </form> 
+    </>
   );
 }
