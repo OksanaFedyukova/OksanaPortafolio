@@ -3,8 +3,8 @@ import ProjectsList from './ProjectsList';
 import Search from './Search';
 import Header from './Header';
 import { projects } from '../data/projects';
-import { Container, Typography } from '@mui/system';
-import ContactForm from './Form';
+import { Container } from '@mui/system';
+import ContactForm from './ContactForm';
 
 
 const App = () => {

@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import {ThemeProvider, createTheme} from '@mui/material';
-//import './index.css';
-import App from './components/App';
+
+import Main from './Main';
 
 const theme = createTheme({
         palette: {
@@ -52,7 +52,7 @@ ReactDOM.render(
 
     <React.StrictMode>
          <ThemeProvider theme={theme}>
-        <App />
+           <Main/> 
         </ThemeProvider>
     </React.StrictMode>,
 

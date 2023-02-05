@@ -88,7 +88,13 @@ function Header() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+              <MenuItem 
+              sx={{
+                '&:hover': {
+                  backgroundColor: '#7288a3',
+                },
+              }}
+              key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
