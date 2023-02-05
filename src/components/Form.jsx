@@ -6,7 +6,7 @@ import { Typography } from '@mui/material';
 export default function ContactForm() {
   const { register, handleSubmit, formState: { errors } } = useForm();
   
-  const onSubmit = data => console.log(data);
+  const onSubmit = (data) =>alert(JSON.stringify(data));
   console.log(errors);
   
   return (
