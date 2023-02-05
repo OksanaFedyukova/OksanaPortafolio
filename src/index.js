@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import {ThemeProvider, createTheme} from '@mui/material';
-import './index.css';
+//import './index.css';
 import App from './components/App';
 
 const theme = createTheme({
         palette: {
-          primary: {
+          primary: {  
             main: '#384760',
           },
           secondary: {
@@ -15,7 +15,7 @@ const theme = createTheme({
           },
           pickledBluewood: {
             main: '#384760',
-          },
+          }, 
           wafer: {
             main: '#deccc3',
           },

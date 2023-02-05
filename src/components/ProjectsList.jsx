@@ -7,7 +7,8 @@ const ProjectsList = (props) => {
     const { projects, setOrder } = props;
 
     return (
-       <Grid container spacing={2} >
+       <Grid container spacing={2}  
+        >
                 {projects.map((item) => (
                     <ProjectsItem key={item.id} setOrder={setOrder} {...item} />
                 ))}

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#796764;
 }
 
 code {
@@ -64,4 +65,137 @@ body {
 #root {
   width: 100%;
   overflow: hidden;
+}
+.ContactForm {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: #384760;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: white;
+  padding: 0 20px 50px;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  position: relative;
+  top: 6px;
+}
+
+.h1 {
+  margin-top: 80px;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 0px;
+}
+
+.form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.p {
+  color: #f64a25;
+  text-align: center;
+}
+
+textarea,
+select,
+input {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.label,
+section > label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 13px;
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+input[type="submit"],
+.button {
+  position: relative;
+  background: #f64a25;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  display: block;
+  appearance: none;
+  border-radius: 4px;
+  width: 100%;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+  transition: 0.3s all;
+}
+
+.buttonBlack {
+  background: 384760;
+  border: 1px solid white;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+
+button[type="button"] {
+  padding: 5px;
+  background: #516391;
+  color: white;
+  letter-spacing: 0px;
+  text-transform: none;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+input[type="submit"]:hover,
+button[type="button"]:hover {
+  background: #f64a25;
+  color: white;
+}
+
+input[type="submit"]:active {
+  transition: 0.3s all;
+  top: 2px;
+}
+
+.preact {
+  opacity: 0;
+  color: white;
+}
+
+.preact:hover {
+  opacity: 1;
 }
